@@ -1,0 +1,311 @@
+body {
+    font-family: "Myriad Pro Regular", sans-serif;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.header-bg {
+    background: #333333;
+    overflow: hidden;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    padding: 32px 0 33px;
+    font-size: 0;
+}
+
+img {
+    display: inline-block;
+}
+
+.navig {
+    float: right;
+    margin-top: 40px;
+}
+
+.navig a {
+    color: #eeeeee;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    display: inline-block;
+    margin: 0 11px;
+}
+
+.logo-wr {
+    float: left;
+}
+
+.logo-wr a {
+    display: block;
+}
+
+.navig a:hover {
+    color: #00aeef;
+}
+.content-bg{
+    background: #fff;
+}
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+}
+
+.freatured {
+    margin: 60px 0 43px;
+}
+
+.freatured h1 {
+    font-family: "Myriad Pro Bold", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.freatured h1 span {
+    color: #00aeef;
+}
+
+.freatured h2 {
+    font-size: 50px;
+    color: #bbbbbb;
+    margin-bottom: 37px;
+}
+
+.freatured p {
+    font-size: 34px;
+    border-top: 3px dotted #d0d0d0;
+    border-bottom: 3px dotted #d0d0d0;
+    padding: 30px 0 18px;
+}
+
+.freatured p span {
+    font-weight: 700;
+    font-family: "Myriad Pro Bold", sans-serif;
+}
+
+.servics {
+    margin: 44px -1%;
+    font-size: 0;
+}
+
+.servic {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 23%;
+    margin: 0 1%;
+    background: #00aeef;
+    box-shadow: 5px 5px 10px 0 rgba(217, 217, 217, 1);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px 9px;
+    text-align: center;
+}
+
+.servic h3 {
+    font-size: 40px;
+    padding: 10px 0;
+    border-bottom: 2px dotted #ffffff;
+}
+
+.servic p {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.servic a {
+    display: block;
+    padding: 10px;
+    background: #0076a3;
+    box-shadow: inset 0 0 5px 1px rgba(6, 111, 151, 1);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.servic a:after,
+.items a:after {
+    content: ">>";
+    margin-left: 5px;
+}
+
+.addition {
+    max-width: 960px;
+    margin: 0 auto;
+    border-top: 3px dotted #d0d0d0;
+    padding: 20px 0;
+    font-size: 0;
+}
+
+.items {
+    margin: 0 -1%;
+}
+
+.item {
+    max-width: 47%;
+    margin: 0 1%;
+    font-size: 14px;
+}
+
+.m_item-border {
+    border-right: 3px dotted #d0d0d0;
+    padding-right: 30px;
+}
+
+.item h3 {
+    color: #555555;
+    font-size: 24px;
+    margin: 13px 0 26px;
+}
+
+.line {
+    margin-bottom: 25px;
+}
+
+.line,
+.client,
+.item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.client img {
+    margin-right: 26px;
+    display: block;
+}
+
+.client-text {
+    max-width: 73%;
+}
+
+.client-text blockquote {
+    margin-bottom: 7px;
+}
+
+.client-text span {
+    font-weight: 700;
+    display: block;
+}
+
+.items {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5em;
+}
+
+.items a {
+    color: #00aeef;
+    display:inline-block;
+}
+
+.items-imgbg {
+    box-shadow: 5px 5px 10px 0 rgba(217, 217, 217, 1);
+}
+
+.item h4 {
+    font-size: 20px;
+    color: #888;
+    margin: 13px 0;
+}
+
+.item-img-text {
+    margin: 20px 0;
+}
+
+.footer {
+    max-width: 960px;
+    margin: 20px auto 0;
+    border-top: 3px dotted #d0d0d0;
+    padding: 20px 0 40px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 998px) {
+    .header {
+        margin: 0 1%;
+    }
+
+    .content,
+    .addition {
+        margin: 0 1%;
+    }
+
+    .servic {
+        max-width: 48%;
+        margin: 1%;
+    }
+    .m_item-border{
+        padding: 0;
+    }
+    .client img {
+        margin: 0;
+    }
+
+
+    .items-imgbg {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .navig {
+        float: left;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+     .item {
+        max-width: 100%;
+    }
+
+    .m_item-border {
+        border-right: none;
+        padding: 0;
+        border-bottom: 3px dotted #d0d0d0;
+    }
+
+    @media screen and (max-width: 568px) {
+        .servic {
+            max-width: 300px;
+            margin: 10px auto;
+            display: block;
+            box-shadow: 0 5px 10px 0 rgba(217, 217, 217, 1);
+        }
+
+        .freatured h1 {
+            font-size: 50px;
+        }
+
+        .freatured h2 {
+            font-size: 40px;
+        }
+
+        .freatured p {
+            font-size: 24px;
+        }
+    }
+    @media screen and (max-width: 369px) {
+        .logo-wr img {
+            width: 100%;
+        }
+
+        .client-text {
+            max-width: 100%;
+        }
+
+        .line {
+            margin-bottom: 5px;
+        }
+    }
+}
