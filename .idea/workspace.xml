@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="782b246c-355e-4c2d-bb1b-4b8c5d4e35d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Golden-One-Page/images/image-bg-header.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LAYOUT2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/LAYOUT2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LAYOUT2/css/style.css" afterPath="$PROJECT_DIR$/LAYOUT2/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LAYOUT2/index.html" afterPath="$PROJECT_DIR$/LAYOUT2/index.html" />
@@ -234,12 +233,12 @@
       <workItem from="1491413046296" duration="347000" />
       <workItem from="1491817453015" duration="1355000" />
       <workItem from="1491823033609" duration="37000" />
-      <workItem from="1491823388921" duration="1136000" />
+      <workItem from="1491823388921" duration="1209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21516000" />
+    <option name="totallyTimeSpent" value="21589000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">

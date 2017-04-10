@@ -428,6 +428,13 @@ li.nav-link.active {
     }
 }
     @media screen and (max-width: 992px) {
+        .navbar-toggle .icon-bar+.icon-bar {
+            margin-top: 6px;
+        }
+        .navbar-toggle .icon-bar {
+            width: 35px;
+            height: 3px;
+        }
         .about, .services,
         .gallery-images,
         .contact {
