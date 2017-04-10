@@ -2,31 +2,19 @@ $(document).ready(function () {
     $("a.gallery").fancybox(
         {});
     $('#myModal').on('show', function (e) {
-        if (!data) return e.preventDefault() // Закрытие модального окна (точнее предотвращение его открытия)
+        if (!data) return e.preventDefault()
     })
    $(function() {
-
         $(window).scroll(function() {
-
             if($(this).scrollTop() != 0) {
-
                 $('#toTop').fadeIn();
-
             } else {
-
-                $('#toTop').fadeOut();
-            }
-
+                $('#toTop').fadeOut();            }
         });
-
         $('#toTop').click(function() {
-
             $('body,html').animate({scrollTop:0},800);
-
         });
-
     });
-
 });
 function initMap() {
        var styles = [
