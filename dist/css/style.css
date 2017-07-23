@@ -319,7 +319,7 @@
   transition: all 0.4s ease; }
 
 .contact {
-  background-image: url("../img/footer-img.png");
+  background-image: url("../img/footer-img.jpg");
   -o-background-size: cover;
      background-size: cover;
   display: block;
