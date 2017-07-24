@@ -1,5 +1,4 @@
 (function () {
-
     "use strict";
     var toggles = document.querySelectorAll(".navbar-btn");
     var elem = document.querySelector(".navbar-right");
@@ -37,14 +36,13 @@ $('.slider').slick({
 
 });
 $(".plan-button-basic").hover(function () {
-    $(".plan-button-basic, .plan-basic ").toggleClass("color");
+    $(".plan-button-basic, .plan-basic ").toggleClass("color-active");
 });
 $(".plan-button-pro").hover(function () {
-    $(".plan-button-pro, .plan-pro ").toggleClass("color");
+    $(".plan-button-pro, .plan-pro ").toggleClass("color-active");
 });
 $(".plan-button-prem").hover(function () {
-    $(".plan-button-prem, .plan-prem ").toggleClass("color");
+    $(".plan-button-prem, .plan-prem ").toggleClass("color-active");
 });
 
 
-		
