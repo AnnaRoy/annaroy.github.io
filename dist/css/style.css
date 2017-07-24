@@ -419,6 +419,8 @@
     padding: 15px 0; }
   .stickytop {
     padding: 8px 0; }
+  .heading {
+    font-size: 36px; }
   .menu {
     margin: 0 50px;
     padding: 0; }
@@ -465,6 +467,12 @@
     .slider-content .slider-button {
       font-size: 20px;
       width: 200px; }
+  .heading {
+    font-size: 32px; }
+  .wrap-content {
+    padding: 25px 0; }
+  .caption {
+    margin: 10px; }
   .items {
     margin: 0 auto; }
   .plans .items {
@@ -497,6 +505,8 @@
     right: 10px; }
   .slick-prev {
     left: 10px; }
+  .heading {
+    font-size: 30px; }
   .item {
     width: 100%; }
     .item .par {
