@@ -1,12 +1,12 @@
 (function () {
-    "use strict";
-    var toggles = document.querySelectorAll(".navbar-btn");
-    var elem = document.querySelector(".navbar-right");
-
-    for (var i = toggles.length - 1; i >= 0; i--) {
-        var toggle = toggles[i];
-        toggleHandler(toggle);
-    }
+    // "use strict";
+    // var toggles = document.querySelectorAll(".navbar-btn");
+    // var elem = document.querySelector(".navbar-right");
+    //
+    // for (var i = toggles.length - 1; i >= 0; i--) {
+    //     var toggle = toggles[i];
+    //     toggleHandler(toggle);
+    // }
 
     function toggleHandler(toggle) {
         toggle.addEventListener("click", function (e) {
@@ -35,6 +35,17 @@ $('.slider').slick({
     cssEase: 'linear'
 
 });
+var map;
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 51.50853, lng: -0.12574},
+        zoom: 8,
+        disableDefaultUI: true
+
+    });
+
+}
+
 $(".plan-button-basic").hover(function () {
     $(".plan-button-basic, .plan-basic ").toggleClass("color-active");
 });
