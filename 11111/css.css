@@ -501,6 +501,7 @@ background:#252b2f;
 			display: block;
 		}		
 		.menu-bg {
+			display: none;
 			width: 0;
 			position:  absolute;
 			z-index: 1000;
@@ -518,6 +519,7 @@ background:#252b2f;
 		.menu-bg.active {
 			width: 300px;
 			padding: 10px 0px;
+			display: block;
 		}
 		.menu-header ul{
 			display: flex;
