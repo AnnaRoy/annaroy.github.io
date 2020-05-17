@@ -502,7 +502,7 @@ background:#252b2f;
 		}		
 		.menu-bg {
 			width: 300px;
-			position: absolute;
+			position: fixed;
 			z-index: 1000;
 			background: #101010;
 			top: 0;
